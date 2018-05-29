@@ -105,6 +105,10 @@
 \subsectionfont{\mdseries\scshape\normalsize} 
 \subsubsectionfont{\bfseries\upshape\normalsize} 
 
+% Change section spacing
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{1.1\baselineskip}{\baselineskip}
+
 % Control tightness of spacing
 \renewcommand{\baselinestretch}{1}
 
@@ -117,44 +121,47 @@
 \begin{document}
 %\reversemarginpar
 %FILL IN NAME HERE
-{\fontseries{eb}\selectfont \LARGE Sonya M. Hanson, Ph.D.}\\
+{\fontseries{eb}\selectfont \LARGE Sonya M. Hanson, Ph.D.}
 
 % FILL IN AUTHOR INFORMATION HERE
-\begin{minipage}[t]{1in}
+\begin{minipage}[t]{0.75in}
 %\includegraphics[width=0.7in,valign=c]{images/Passport_Photo.png}
 \end{minipage}
 \quad
-\begin{minipage}[t]{1in}
-\begin{tabular}{rlcrl}
-{\bf email} & \href{mailto:hansons@mskcc.org}{\nolinkurl{hansons@mskcc.org}} && {\bf address} & 
-{Memorial Sloan Kettering Cancer Center}\\
-{\bf twitter} & \href{http://www.twitter.com/sonyahans}{\nolinkurl{@sonyahans}}&&&{1275 York Ave, Box 357}\\
-{\bf github} & \href{http://www.github.com/sonyahanson}{\nolinkurl{sonyahanson}} &&& {New York, NY 10065}\\
-{\bf website} &\href{http://www.sonyahanson.com}{\nolinkurl{sonyahanson.com}}&&{\bf tel} & 646.888.3594
+\begin{minipage}[t]{0.75in}
+\begin{tabular}{rlcrlrl}
+{\bf email} & \href{mailto:sh3779@columbia.edu}{\nolinkurl{sh3779@columbia.edu}} && {\bf twitter} & \href{http://www.twitter.com/sonyahans}{\nolinkurl{@sonyahans}} &
+{\bf github} & \href{http://www.github.com/sonyahanson}{\nolinkurl{sonyahanson}}\\
+  &   &&& 
 \end{tabular}
 \end{minipage}
 
+\vspace{-\baselineskip}
+
 \section*{EDUCATION}
+\vspace{-\baselineskip}
 \noindent\years{2009--14}{\bf \textsc{Ph.D.} Biochemistry, University of Oxford}\\
-\emph{Supervisors}: \href{http://neuroscience.nih.gov/Lab.asp?Org_ID=55}{Kenton J. Swartz} (NIH), \href{http://www.bioch.ox.ac.uk/aspsite/index.asp?pageid=705}{Simon Newstead} (Oxford), \href{http://sbcb.bioch.ox.ac.uk/sansom.php}{Mark. S.P. Sansom} (Oxford)\\
+\indent PIs: \href{https://neuroscience.nih.gov/ninds/Faculty/Profile/kenton-swartz.aspx}{Kenton J. Swartz} (NIH), \href{http://www.bioch.ox.ac.uk/aspsite/index.asp?pageid=705}{Simon Newstead} (Oxford), \href{http://sbcb.bioch.ox.ac.uk/sansom.php}{Mark. S.P. Sansom} (Oxford)
+
 \noindent\years{2005--09}{\bf \textsc{B.S.} Biophysics, Minor: Screenwriting, University of Southern California}, \emph{cum laude}
 
 \section*{RESEARCH EXPERIENCE}
-\noindent\years{2014--present}{\bf Postdoctoral Fellow, Computational Biology Program, Memorial Sloan Kettering Cancer Center}\\
-PI: \href{http://www.choderalab.org}{John D. Chodera}. \\
-Developing a combined pipeline of automated wetlab experiment and molecular simulation to dissect the contribution of conformational reorganization energies to kinase inhibitor binding. \\
-\noindent\years{2009--14}{\bf \textsc{Ph.D.} Biochemistry, University of Oxford}\\
-Dissertation: {\emph{Structural, biochemical and computational studies of  TRP channel transmembrane domain modularity.}} \\
-Funded via the NIH-Oxford-Cambridge scholars program, specifically the National Institute of Neurological Disorders and Stroke (NINDS) of the National Institutes of Health.\\
-\noindent\years{2007--09}{\bf University of Southern California} \\
-Undergraduate research with \href{http://structure.usc.edu/ChenLab/}{Lin Chen }(\emph{computational modeling and docking of antibody-ion channel interaction}). \\
-\noindent\years{2005--07}{\bf Indiana University} \\
-Undergraduate research with \href{http://www.med.umich.edu/schnell-lab/}{Santiago Schnell} (\emph{mathematical models of enzyme kinetics}).
-
 \vspace{-\baselineskip}
+\noindent\years{2018--present}{\bf Postdoctoral Fellow, Department of Biochemistry and Molecular Biophysics, Columbia University}\\
+\indent PI: \href{http://franklab.cpmc.columbia.edu/franklab/}{Joachim Frank}. 
+
+\noindent\years{2014--2017}{\bf Postdoctoral Fellow, Computational Biology Program, Memorial Sloan Kettering Cancer Center}\\
+\noindent\years{2017}{\bf Postdoctoral Fellow, Pharmacological Sciences, Stony Brook University}\\
+\indent PIs: \href{http://www.choderalab.org}{John D. Chodera} (MSKCC), \href{https://medicine.stonybrookmedicine.edu/mseeligerlab}{Markus A. Seeliger} (Stony Brook).
+
+\noindent\years{2007--09}{\bf University of Southern California}, PI: \href{http://structure.usc.edu/ChenLab/}{Lin Chen}. \\
+\noindent\years{2005--07}{\bf Indiana University}, PI: \href{http://www.med.umich.edu/schnell-lab/}{Santiago Schnell}.
 
 \section*{ACADEMIC LEADERSHIP EXPERIENCE}
-Course\years{2016} Instructor `Quantitative and computational biology' at Gerstner Sloan Kettering Graduate School\\
+\vspace{-\baselineskip}
+\emph{Ad hoc}\years{2017} reviewer, \emph{Scientific Reports} \\
+\noindent\years{2017} Biophysical Society 61st Annual Meeting Platform Co-Chair: `Protein Dynamics and Allostery I'\\
+\noindent\years{2016-17} CourseInstructor `Quantitative and computational biology' at Gerstner Sloan Kettering Graduate School\\
 \noindent\years{2016} \emph{Ad hoc}  reviewer, \emph{JoVE} \\
 \noindent\years{2015-16} MSKCC Postdoctoral Association Board Member\\
 \noindent\years{2015} Gordon Research Seminar `Computer Aided Drug Design' - Discussion Leader \\
@@ -162,6 +169,7 @@ Course\years{2016} Instructor `Quantitative and computational biology' at Gerstn
 \noindent\years{2015} Biophysical Society 59th Annual Meeting Platform Co-Chair: `Protein-Small Molecule Interactions'
 
 \section*{AWARDS AND HONORS}
+\vspace{-\baselineskip}
 Biophysical\years{2016} Society Committee for Professional Opportunities for Women (CPOW) Travel Award \\
 \noindent\years{2016} Scholarship Recipient, PyGotham 2016 \\
 \noindent\years{2015} Materials Computation Center (MCC) Travel Award to attend ``Molecular and chemical kinetics" workshop \\
@@ -170,34 +178,42 @@ Biophysical\years{2016} Society Committee for Professional Opportunities for Wom
 \noindent\years{2009--14} NIH-Oxford-Cambridge Biomedical Research Scholar \\
 \noindent\years{2009} B.S. awarded \emph{cum laude} and with `Discovery honors' for original research from USC \\
 \noindent\years{2008} Barry M. Goldwater Scholarship \\
-\noindent\years{2008} Interdisciplinary Award at the USC Undergraduate Research Symposium \\
 \noindent\years{2005--09} National Merit Finalist Presidential Scholarship from the University of Southern California
 
 \section*{SCIENCE COMMUNICATION ACTIVITIES}
-Volunteer \years{2016} at Rockefeller University's `Science Saturday' - {\small \it Protein biochemistry super station}\\
+\vspace{-\baselineskip}
+Facilitator \years{2016} at \href{https://mozillafestival.org}{MozFest}, London - {\small \it Open science in drug design: Analysis and visualization of an open dataset.}\\
+\noindent \years{2016} Volunteer at Rockefeller University's `Science Saturday' - {\small \it Protein biochemistry super station}\\
 \noindent\years{2016} General Audience Lecture at \href{http://genspace.org/}{Genspace NYC} - {\small \it How computer programs can help us design better cancer drugs} \\
 \noindent\years{2015-16} Biophysical Society Annual Meeting Guest Blogger\\
 \noindent\years{2015} Demo Presenter at \href{http://www.nycmedialab.org/}{NYC Media Lab} Annual Summit\\ 
-\noindent\years{2015} \href{http://www.centerforcommunicatingscience.org/boot-camp/}{The Alan Alda Center for Communicating Science Boot Camp}\\
+\noindent\years{2015} The Alan Alda Center for Communicating Science Boot Camp\\
 \noindent\years{2011--13} Founding Editor of the \href{http://www.oxbridgebiotech.com/review/}{Oxbridge Biotech Roundtable Review}: Editor in Chief 2011-12, Oxford Editor 2011-13 
 
-\section*{PROFESSIONAL MEMBERSHIP}
-New \years{2014-present} York Academy of Sciences\\
-\noindent\years{2009-present} Biophysical Society\\
-\noindent\years{2008} Member of the organizing committee for Undergraduate Women in Physics Conf. at USC
-
 \section*{TALKS}
+\vspace{-\baselineskip}
+{\small What} \years{2018} {\small makes a kinase promiscuous for inhibitors?}\\
+\indent {\small 2018 Workshop on Free Energy Methods, Kinetics and Markov State Models in Drug Design - Cambridge, MA}\\
+{\small Can} \years{2017} {\small we automatically detect biologically relevant order parameters in molecular simulation?}\\
+\indent {\small Biophysical Society 61st Annual Meeting - New Orleans, LA}\\
 {\small Developing} \years{2015} {\small high-throughput fluorescence-based assays for measuring kinase inhibitor free energies of binding}\\
 \indent {\small Biophysical Society 59th Annual Meeting - Baltimore, MD}\\
-\indent {\small {\bf Hanson SM}, Prinz JH, Behr JB, Grinaway PB, Rustenburg AS, Beauchamp KA, Parton DL, Chodera JD}\\
 \noindent\years{2014} {\small Tackling complex problems in small molecule recognition using computation and automated biophysical experiment}\\
 \indent {\small Telluride TSRC `Molecular Recognition' Workshop - Telluride, CO}\\
-\indent {\small {\bf Hanson SM}, Prinz JH, Grinaway PB, Rustenburg AS, Beauchamp KA, Behr JB, Parton DL, Chodera JD}
 
 \section*{PUBLICATIONS \hfill \scriptsize $^*$ asterisks denote that marked authors contributed equally} 
 %{\small \it h-index: 22 / i10-index: 33 / first author: 10 / corresponding author: 7 / published or in press: 42}
 %{\scriptsize $^\dag$ daggers denote corresponding-author publication}
 %%%%%%
+\vspace{-\baselineskip}
+\newarticle{DDR1.jpg}{{\bf Hanson SM}$^*$, Georghiou G$^*$, Miller WT, Rest JS, Chodera JD, and Seeliger MA. What makes a kinase promiscuous for inhibitors? {\it Cell Chemical Biology} -- under review, 2018.}{}{} {}
+
+\newarticle{kinase-screen-wide.png}{Albanese SK$^*$, Parton DL$^*$, Isik M, Rodriguez-Laureano L, {\bf Hanson SM}, Gradia S, Jeans C, Levinson NM, Seeliger MA, and Chodera JD. An open library of human kinase domain constructs for automated bacterial expression. {\it Biochemistry} -- in press, 2018}{bioRxiv DOI}{https://doi.org/10.1101/038711} {}
+
+\newarticle{AURA.png}{Ruff EF, Muretta JM, Thompson AR, Lake EW, Cyphers S, Albanese SK, {\bf Hanson SM}, Behr JM, Thomas DD, Chodera JD, and Levinson NM. A dynamic mechanism for allosteric activation of Aurora kinase A by activation loop phosphorylation. {\it eLife} 7:e32766, 2018}{DOI}{https://doi.org/10.7554/eLife.32766} {}
+
+\newarticle{PNAS.png}{Zhang F, Jara-Oseguera A, Chang TH, Bae C, {\bf Hanson SM}, and Swartz KJ. Heat activation is intrinsic to the pore domain of TRPV1. {\it Proceedings of the National Academy of Sciences} 115(2): E317-24, 2017}{DOI}{https://doi.org/10.1073/pnas.1717192115} {}
+
 \newarticle{ensembler.png}{Parton DL, Grinaway PB, {\bf Hanson SM}, Beauchamp KA, and Chodera JD. Ensembler: Enabling high-throughput molecular simulations at the superfamily scale. {\it PLoS Computational Biology} 12(6):e1004728, 2016}{DOI}{http://dx.doi.org/10.1371/journal.pcbi.1004728} {}
 %Correct syntax: {DOI}{http://dx.doi.org/10.1007/s10822-013-9689-8} {We show how...}
 
