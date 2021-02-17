@@ -43,10 +43,10 @@
   \parbox[c]{0.5in}{{\includegraphics[width=0.9in]{thumbnails/{#1}}}}
 }{\footnotesize\emph{#2}}}
 % NEW ARTICLE STYLE WITH IMAGE AND NO NUMBERS
-\newcommand{\newarticle}[5]{
+\newcommand{\newarticle}[7]{
 \begin{adjustwidth}{-0.05in}{-1in}  
 \begin{tabular}{p{6.25in}p{0.9in}}
-\parbox[c]{6in}{{#2} $\cdot$ \href{#4}{#3} \\ {\footnotesize\emph {#5}}} & \parbox[c]{0.9in}{\includegraphics[width=0.8in]{thumbnails/{#1}}}
+\parbox[c]{6in}{{#2} $\cdot$ \href{#4}{#3} $\cdot$ \href{#6}{#5}\\ {\footnotesize\emph {#7}}} & \parbox[c]{0.9in}{\includegraphics[width=0.8in]{thumbnails/#1}}
 \end{tabular}
 \end{adjustwidth}
 \vspace{0.075in}
@@ -107,7 +107,7 @@
 
 % Change section spacing
 \usepackage{titlesec}
-\titlespacing*{\section}{0pt}{1.1\baselineskip}{\baselineskip}
+\titlespacing*{\section}{0pt}{1\baselineskip}{\baselineskip}
 
 % Control tightness of spacing
 \renewcommand{\baselinestretch}{1}
@@ -130,28 +130,31 @@
 \quad
 \begin{minipage}[t]{0.75in}
 \begin{tabular}{rlcrlrl}
-{\bf email} & \href{mailto:sh3779@columbia.edu}{\nolinkurl{sh3779@columbia.edu}} && {\bf twitter} & \href{http://www.twitter.com/sonyahans}{\nolinkurl{@sonyahans}} &
-{\bf github} & \href{http://www.github.com/sonyahanson}{\nolinkurl{sonyahanson}}\\
+{\bf email} & \href{mailto:shanson@flatironinstitute.org }{\nolinkurl{shanson@flatironinstitute.org}} && {\bf GitHub} & \href{http://www.github.com/sonyahanson}{\nolinkurl{sonyahanson}} &
+{\bf website} & \href{http://www.sonyahanson.com}{\nolinkurl{sonyahanson.com}}\\
   &   &&& 
 \end{tabular}
 \end{minipage}
 
 \vspace{-\baselineskip}
-
 \section*{EDUCATION}
 \vspace{-\baselineskip}
-\noindent\years{2009--14}{\bf \textsc{Ph.D.} Biochemistry, University of Oxford}\\
+\noindent\years{2009--2014}{\bf \textsc{Ph.D.} Biochemistry, University of Oxford}\\
 \indent PIs: \href{https://neuroscience.nih.gov/ninds/Faculty/Profile/kenton-swartz.aspx}{Kenton J. Swartz} (NIH), \href{http://www.bioch.ox.ac.uk/aspsite/index.asp?pageid=705}{Simon Newstead} (Oxford), \href{http://sbcb.bioch.ox.ac.uk/sansom.php}{Mark. S.P. Sansom} (Oxford)
 
-\noindent\years{2005--09}{\bf \textsc{B.S.} Biophysics, Minor: Screenwriting, University of Southern California}, \emph{cum laude}
+\noindent\years{2005--2009}{\bf \textsc{B.S.} Biophysics, Minor: Screenwriting, University of Southern California}, \emph{cum laude}
 
 \section*{RESEARCH EXPERIENCE}
 \vspace{-\baselineskip}
-\noindent\years{2018--present}{\bf Postdoctoral Fellow, Department of Biochemistry and Molecular Biophysics, Columbia University}\\
+\noindent\years{2021--present}{\bf Research Scientist/Project Leader, Structural and Molecular Biophysics, Flatiron Institute}
+
+\noindent\years{2019--2020}{\bf Postdoctoral Fellow, Department of Theoretical Biophysics, Max Planck Institute of Biophysics}\\
+\indent PI: \href{https://www.biophys.mpg.de/en/theoretical-biophysics.html}{Gerhard Hummer}.                 
+
+\noindent\years{2018}{\bf Postdoctoral Fellow, Department of Biochemistry and Molecular Biophysics, Columbia University}\\
 \indent PI: \href{http://franklab.cpmc.columbia.edu/franklab/}{Joachim Frank}. 
 
-\noindent\years{2014--2017}{\bf Postdoctoral Fellow, Computational Biology Program, Memorial Sloan Kettering Cancer Center}\\
-\noindent\years{2017}{\bf Postdoctoral Fellow, Pharmacological Sciences, Stony Brook University}\\
+\noindent\years{2014--2017}{\bf Postdoctoral Fellow, Comp. Biol. Memorial Sloan Kettering Cancer Center and Stony Brook University}\\
 \indent PIs: \href{http://www.choderalab.org}{John D. Chodera} (MSKCC), \href{https://medicine.stonybrookmedicine.edu/mseeligerlab}{Markus A. Seeliger} (Stony Brook).
 
 \noindent\years{2007--09}{\bf University of Southern California}, PI: \href{http://structure.usc.edu/ChenLab/}{Lin Chen}. \\
@@ -159,27 +162,31 @@
 
 \section*{ACADEMIC LEADERSHIP EXPERIENCE}
 \vspace{-\baselineskip}
-\emph{Ad hoc}\years{2017} reviewer, \emph{Scientific Reports} \\
+\emph{Ad hoc}\years{2017-18} reviewer, \emph{Scientific Reports}, \emph{Journal of Molecular Recognition} and \emph{Journal of Theoretical Biology}\\
 \noindent\years{2017} Biophysical Society 61st Annual Meeting Platform Co-Chair: `Protein Dynamics and Allostery I'\\
-\noindent\years{2016-17} CourseInstructor `Quantitative and computational biology' at Gerstner Sloan Kettering Graduate School\\
-\noindent\years{2016} \emph{Ad hoc}  reviewer, \emph{JoVE} \\
+\noindent\years{2016-17} Course Instructor `Quantitative and computational biology' at Gerstner Sloan Kettering Graduate School\\
+%\noindent\years{2016} \emph{Ad hoc}  reviewer, \emph{JoVE} \\
 \noindent\years{2015-16} MSKCC Postdoctoral Association Board Member\\
 \noindent\years{2015} Gordon Research Seminar `Computer Aided Drug Design' - Discussion Leader \\
 \noindent\years{2015} \emph{Ad hoc} reviewer, \emph{Biochemistry} \\
 \noindent\years{2015} Biophysical Society 59th Annual Meeting Platform Co-Chair: `Protein-Small Molecule Interactions'
 
+\vspace{-4pt}
 \section*{AWARDS AND HONORS}
 \vspace{-\baselineskip}
-Biophysical\years{2016} Society Committee for Professional Opportunities for Women (CPOW) Travel Award \\
-\noindent\years{2016} Scholarship Recipient, PyGotham 2016 \\
+Marie\years{2020} Sklodowska-Curie Postdoctoral Fellowship (declined)\\
+\noindent\years{2020} Alexander von Humboldt Fellowship for Experienced Researchers\\
+\noindent\years{2016}Biophysical Society Committee for Professional Opportunities for Women (CPOW) Travel Award \\
+%\noindent\years{2016} Scholarship Recipient, PyGotham 2016 \\
 \noindent\years{2015} Materials Computation Center (MCC) Travel Award to attend ``Molecular and chemical kinetics" workshop \\
 \noindent\years{2013} OXION: Ion Channels and Disease Initiative Day Poster Award \\
 \noindent\years{2013} Bursary Award to Attend 2013 4th RSC/SCI symposium on Ion Channels as Therapeutic Targets \\
 \noindent\years{2009--14} NIH-Oxford-Cambridge Biomedical Research Scholar \\
-\noindent\years{2009} B.S. awarded \emph{cum laude} and with `Discovery honors' for original research from USC \\
+%\noindent\years{2009} B.S. awarded \emph{cum laude} and with `Discovery honors' for original research from USC \\
 \noindent\years{2008} Barry M. Goldwater Scholarship \\
 \noindent\years{2005--09} National Merit Finalist Presidential Scholarship from the University of Southern California
 
+\vspace{-4pt}
 \section*{SCIENCE COMMUNICATION ACTIVITIES}
 \vspace{-\baselineskip}
 Facilitator \years{2016} at \href{https://mozillafestival.org}{MozFest}, London - {\small \it Open science in drug design: Analysis and visualization of an open dataset.}\\
@@ -190,8 +197,11 @@ Facilitator \years{2016} at \href{https://mozillafestival.org}{MozFest}, London 
 \noindent\years{2015} The Alan Alda Center for Communicating Science Boot Camp\\
 \noindent\years{2011--13} Founding Editor of the \href{http://www.oxbridgebiotech.com/review/}{Oxbridge Biotech Roundtable Review}: Editor in Chief 2011-12, Oxford Editor 2011-13 
 
+\vspace{-4pt}
 \section*{TALKS}
 \vspace{-\baselineskip}
+{\small What} \years{2019} {\small makes a kinase promiscuous for inhibitors?}\\
+\indent {\small 2019 American Chemical Society National Meeting - San Diego, CA}\\
 {\small What} \years{2018} {\small makes a kinase promiscuous for inhibitors?}\\
 \indent {\small 2018 Workshop on Free Energy Methods, Kinetics and Markov State Models in Drug Design - Cambridge, MA}\\
 {\small Can} \years{2017} {\small we automatically detect biologically relevant order parameters in molecular simulation?}\\
@@ -199,40 +209,39 @@ Facilitator \years{2016} at \href{https://mozillafestival.org}{MozFest}, London 
 {\small Developing} \years{2015} {\small high-throughput fluorescence-based assays for measuring kinase inhibitor free energies of binding}\\
 \indent {\small Biophysical Society 59th Annual Meeting - Baltimore, MD}\\
 \noindent\years{2014} {\small Tackling complex problems in small molecule recognition using computation and automated biophysical experiment}\\
-\indent {\small Telluride TSRC `Molecular Recognition' Workshop - Telluride, CO}\\
+\indent {\small Telluride TSRC `Molecular Recognition' Workshop - Telluride, CO}
 
-\section*{PUBLICATIONS \hfill \scriptsize $^*$ asterisks denote that marked authors contributed equally} 
-%{\small \it h-index: 22 / i10-index: 33 / first author: 10 / corresponding author: 7 / published or in press: 42}
+\section*{PUBLICATIONS \hfill {\small \it h-index: 11 / i10-index: 11 / first author: 6 } \hfill \scriptsize $^*$ asterisks denote that marked authors contributed equally}
 %{\scriptsize $^\dag$ daggers denote corresponding-author publication}
 %%%%%%
 \vspace{-\baselineskip}
-\newarticle{DDR1.jpg}{{\bf Hanson SM}$^*$, Georghiou G$^*$, Miller WT, Rest JS, Chodera JD, and Seeliger MA. What makes a kinase promiscuous for inhibitors? {\it Cell Chemical Biology} -- under review, 2018.}{}{} {}
+\newarticle{DDR1.jpg}{1. {\bf Hanson SM}$^*$, Georghiou G$^*$, Miller WT, Rest JS, Chodera JD, and Seeliger MA. What makes a kinase promiscuous for inhibitors? {\it Cell Chemical Biology} 26(3): 390-399.e5, 2019}{DOI}{https://doi.org/10.1016/j.chembiol.2018.11.005}{GitHub}{https://github.com/choderalab/DDR1_and_kinase_promiscuity_materials}{}
 
-\newarticle{kinase-screen-wide.png}{Albanese SK$^*$, Parton DL$^*$, Isik M, Rodriguez-Laureano L, {\bf Hanson SM}, Gradia S, Jeans C, Levinson NM, Seeliger MA, and Chodera JD. An open library of human kinase domain constructs for automated bacterial expression. {\it Biochemistry} -- in press, 2018}{bioRxiv DOI}{https://doi.org/10.1101/038711} {}
+\newarticle{kinase-screen-wide.png}{2. Albanese SK$^*$, Parton DL$^*$, Isik M, Rodriguez-Laureano L, {\bf Hanson SM}, Gradia S, Jeans C, Levinson NM, Seeliger MA, and Chodera JD. An open library of human kinase domain constructs for automated bacterial expression. {\it Biochemistry} 57(31): 4675-4689, 2018}{DOI}{https://doi.org/10.1021/acs.biochem.7b01081}{GitHub}{https://github.com/choderalab/kinase-ecoli-expression-panel} {}
 
-\newarticle{AURA.png}{Ruff EF, Muretta JM, Thompson AR, Lake EW, Cyphers S, Albanese SK, {\bf Hanson SM}, Behr JM, Thomas DD, Chodera JD, and Levinson NM. A dynamic mechanism for allosteric activation of Aurora kinase A by activation loop phosphorylation. {\it eLife} 7:e32766, 2018}{DOI}{https://doi.org/10.7554/eLife.32766} {}
+\newarticle{AURA.png}{3. Ruff EF, Muretta JM, Thompson AR, Lake EW, Cyphers S, Albanese SK, {\bf Hanson SM}, Behr JM, Thomas DD, Chodera JD, and Levinson NM. A dynamic mechanism for allosteric activation of Aurora kinase A by activation loop phosphorylation. {\it eLife} 7:e32766, 2018}{DOI}{https://doi.org/10.7554/eLife.32766} {GitHub}{https://github.com/choderalab/AurA-materials} {}
 
-\newarticle{PNAS.png}{Zhang F, Jara-Oseguera A, Chang TH, Bae C, {\bf Hanson SM}, and Swartz KJ. Heat activation is intrinsic to the pore domain of TRPV1. {\it Proceedings of the National Academy of Sciences} 115(2): E317-24, 2017}{DOI}{https://doi.org/10.1073/pnas.1717192115} {}
+\newarticle{PNAS.png}{4. Zhang F, Jara-Oseguera A, Chang TH, Bae C, {\bf Hanson SM}, and Swartz KJ. Heat activation is intrinsic to the pore domain of TRPV1. {\it Proceedings of the National Academy of Sciences} 115(2): E317-24, 2017}{DOI}{https://doi.org/10.1073/pnas.1717192115} {} {} {}
 
-\newarticle{ensembler.png}{Parton DL, Grinaway PB, {\bf Hanson SM}, Beauchamp KA, and Chodera JD. Ensembler: Enabling high-throughput molecular simulations at the superfamily scale. {\it PLoS Computational Biology} 12(6):e1004728, 2016}{DOI}{http://dx.doi.org/10.1371/journal.pcbi.1004728} {}
+\newarticle{ensembler.png}{5. Parton DL, Grinaway PB, {\bf Hanson SM}, Beauchamp KA, and Chodera JD. Ensembler: Enabling high-throughput molecular simulations at the superfamily scale. {\it PLoS Computational Biology} 12(6):e1004728, 2016}{DOI}{http://dx.doi.org/10.1371/journal.pcbi.1004728} {GitHub}{https://github.com/choderalab/ensembler} {}
 %Correct syntax: {DOI}{http://dx.doi.org/10.1007/s10822-013-9689-8} {We show how...}
 
-\newarticle{elife.png}{Zhang F$^*$, {\bf Hanson SM}$^*$, Jara-Oseguera A, Krepkiy D, Bae C, Pearce LV, Blumberg PM, Newstead S, and Swartz KJ. Engineering vanilloid-sensitivity into the rat TRPV2 channel. {\it eLife} 2016;10.7554/eLife.16409, 2016}{DOI}{http://dx.doi.org/10.7554/eLife.16409} {}
+\newarticle{elife.png}{6. Zhang F$^*$, {\bf Hanson SM}$^*$, Jara-Oseguera A, Krepkiy D, Bae C, Pearce LV, Blumberg PM, Newstead S, and Swartz KJ. Engineering vanilloid-sensitivity into the rat TRPV2 channel. {\it eLife} 2016;10.7554/eLife.16409, 2016}{DOI}{http://dx.doi.org/10.7554/eLife.16409} {} {} {}
 
-\newarticle{dispense.png}{{\bf Hanson SM}, Ekins S, and Chodera JD. Modeling error in experimental assays using the bootstrap principle: Understanding discrepancies between assays using different dispensing technologies. {\it Journal of Computer-Aided Molecular Design} 29(12):1073-86, 2015}{DOI}{http://dx.doi.org/10.1007/s10822-015-9888-6} {}
+\newarticle{dispense.png}{7. {\bf Hanson SM}, Ekins S, and Chodera JD. Modeling error in experimental assays using the bootstrap principle: Understanding discrepancies between assays using different dispensing technologies. {\it Journal of Computer-Aided Molecular Design} 29(12):1073-86, 2015}{DOI}{http://dx.doi.org/10.1007/s10822-015-9888-6} {GitHub}{http://github.com/choderalab/dispensing-errors-manuscript} {}
 %Correct syntax: {DOI}{http://dx.doi.org/10.1007/s10822-013-9689-8} {We show how...}
 
-\newarticle{TRPC3.png}{{\bf Hanson SM}, Sansom MSP, and Becker EB. Modeling suggests TRPC3 hydrogen bonding and not phosphorylation contributes to the ataxia phenotype of the Moonwalker mouse. {\it Biochemistry} 54(26):4033-41, 2015}{DOI}{http://dx.doi.org/10.1021/acs.biochem.5b00235}{}
+\newarticle{TRPC3.png}{8. {\bf Hanson SM}, Sansom MSP, and Becker EB. Modeling suggests TRPC3 hydrogen bonding and not phosphorylation contributes to the ataxia phenotype of the Moonwalker mouse. {\it Biochemistry} 54(26):4033-41, 2015}{DOI}{http://dx.doi.org/10.1021/acs.biochem.5b00235}{} {} {}
 
-\newarticle{cap.png}{{\bf Hanson SM}, Newstead S, Swartz KJ, and Sansom MSP. Capsaicin interaction with TRPV1 channels in a lipid bilayer: Molecular dynamics simulation. {\it Biophysical Journal}, 108(6):1425-34, 2015}{DOI}{http://dx.doi.org/10.1016/j.bpj.2015.02.013}{Selected for 'Best of 2015' reprint collection as one of 12 most-accessed articles in the {\it Biophysical Journal} in 2015.}
+\newarticle{cap.png}{9. {\bf Hanson SM}, Newstead S, Swartz KJ, and Sansom MSP. Capsaicin interaction with TRPV1 channels in a lipid bilayer: Molecular dynamics simulation. {\it Biophysical Journal}, 108(6):1425-34, 2015}{DOI}{http://dx.doi.org/10.1016/j.bpj.2015.02.013} {} {}{Selected for 'Best of 2015' reprint collection as one of 12 most-accessed articles in the {\it Biophysical Journal} in 2015.}
 
-\newarticle{hTRPC3.png}{Fogel BF, {\bf Hanson SM}, and Becker EB. Do mutations in the murine ataxia gene TRPC3 cause cerebellar ataxia in humans? {\it Movement Disorders}, 30(2):284--6, 2014}{DOI}{http://dx.doi.org/10.1002/mds.26096}{}
+\newarticle{hTRPC3.png}{10. Fogel BF, {\bf Hanson SM}, and Becker EB. Do mutations in the murine ataxia gene TRPC3 cause cerebellar ataxia in humans? {\it Movement Disorders}, 30(2):284--6, 2014}{DOI}{http://dx.doi.org/10.1002/mds.26096}{} {} {}
 
-\newarticle{nachr.png}{Dellisanti CM, {\bf Hanson SM}, Chen L, and Czajkowski C. Packing of the extracellular domain hydrophobic core has evolved to facilitate pentameric ligand-gated ion channel function. {\it The Journal of Biological Chemistry}, 286(5):3658--70, 2011}{DOI}{http://dx.doi.org/10.1074/jbc.M110.156851} {}
+\newarticle{nachr.png}{11. Dellisanti CM, {\bf Hanson SM}, Chen L, and Czajkowski C. Packing of the extracellular domain hydrophobic core has evolved to facilitate pentameric ligand-gated ion channel function. {\it The Journal of Biological Chemistry}, 286(5):3658--70, 2011}{DOI}{http://dx.doi.org/10.1074/jbc.M110.156851} {} {} {}
 
-\newarticle{rsa.png}{{\bf Hanson SM} and Schnell S.The reactant stationary approximation in enzyme kinetics. {\it The Journal of Physical Chemistry A}, 112:8654--58, 2008}{DOI}{http://dx.doi.org/10.1021/jp8026226} {}
+\newarticle{rsa.png}{12. {\bf Hanson SM} and Schnell S. The reactant stationary approximation in enzyme kinetics. {\it The Journal of Physical Chemistry A}, 112:8654--58, 2008}{DOI}{http://dx.doi.org/10.1021/jp8026226} {} {} {}
 
-\newarticle{enzyme.png}{Schnell S and {\bf Hanson SM}. A test for measuring the effects of enzyme inactivation. {\it Biophysical Chemistry}, 125:269--74, 2007}{DOI}{http://dx.doi.org/10.1016/j.bpc.2006.08.010} {}
+\newarticle{enzyme.png}{13. Schnell S and {\bf Hanson SM}. A test for measuring the effects of enzyme inactivation. {\it Biophysical Chemistry}, 125:269--74, 2007}{DOI}{http://dx.doi.org/10.1016/j.bpc.2006.08.010} {} {} {}
 
 \vfill{}
 Google Scholar statistics: \href{https://goo.gl/aU1s2e}{https://goo.gl/aU1s2e}
